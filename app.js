@@ -56,3 +56,15 @@ app.get('/home', (req, res) => {
 }); 
 
 
+app.get('/views/home.html', (req, res) => {   
+    res.sendFile(path.join(__dirname, '/views/home.html') )
+
+}); 
+
+app.get('/views/turing.html', (req, res) => {   
+    res.sendFile(path.join(__dirname, '/views/turing.html') )
+
+}); 
+
+
+

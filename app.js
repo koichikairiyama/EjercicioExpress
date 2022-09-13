@@ -2,8 +2,7 @@ const path = require('path')
 const express = require('express');
 const app = express();
 
-
-
+app.use(express.static(path.join(__dirname, 'public')))    /////     AGREGAR PUBLIC
 
 app.listen(3030, () => {    // metodo listen de app para levantar el servidor : al ser un metodo necesita parametros : 
     // parametro1 : puerto donde lo queremos inicializar , // parametro2 : callback function 

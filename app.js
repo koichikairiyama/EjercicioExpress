@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')))
 
 
-app.listen(3030, () => {    // metodo listen de app para levantar el servidor : al ser un metodo necesita parametros : 
+app.listen(3031, () => {    // metodo listen de app para levantar el servidor : al ser un metodo necesita parametros : 
     // parametro1 : puerto donde lo queremos inicializar , // parametro2 : callback function 
         console.log('Servidor corriendo')
     });
@@ -49,3 +49,9 @@ app.get('/turing', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/turing.html') )
 
 });
+
+
+app.get('/home', (req, res) => {   
+    res.sendFile(path.join(__dirname, '/views/home.html') )
+
+}); 

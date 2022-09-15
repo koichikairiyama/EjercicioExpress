@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+
+header {
+    background-color: #eac926;
+    font-size: 16px;
+}
+
+header a{ 
+    display: flex;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main h2 {
+    font-size: 24px;
+} 
+
+ul {
+    list-style: none;
+}
+
+.precios {
+    font-size: 18px;
+}
+.descuentos {
+    font-size: 16px;
+}
+.descripciones {
+    font-size: 16px;
+}
+
+
+footer h3 {
+    font-size: 16px;
+}
+
+
+footer section div .cuerpodetexto-copy {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 12px;
+}
+
+.cuerpodetexto {
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+}
+
+
+
+.contenedor-burguer {
+    
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contenedor {
+    
+    padding-top: 50px;
+    text-align: center;
+    display: flexbox;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+
+
+header div p{
+    text-align: center;
+}
+ 
+.compra-en-cuotas {
+    padding-bottom: 20px;
+}

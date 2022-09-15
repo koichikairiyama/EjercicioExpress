@@ -46,7 +46,7 @@ footer section div .cuerpodetexto-copy {
     font-size: 12px;
 }
 
-.cuerpodetexto {
+footer.cuerpodetexto {
     font-size: 12px;
     font-style: normal;
     text-align: center;
@@ -57,7 +57,7 @@ footer section div .cuerpodetexto-copy {
 .contenedor-burguer {
     
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .contenedor {
